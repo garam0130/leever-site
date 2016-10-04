@@ -22,8 +22,8 @@
 			<!-- Nav -->
 				<nav id="nav">
 					<a href="#me" class="icon fa-home active"><span>Home</span></a>
+					<a href="#about" class="icon fa-user"><span>About</span></a>
 					<a href="#work" class="icon fa-folder"><span>Work</span></a>
-					<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
 					<a href="http://linkedin.com/in/garamlee" class="icon fa-linkedin"><span>linkedin</span></a>
 				</nav>
 
@@ -36,7 +36,7 @@
 								<h1>Garam Lee</h1>
 								<p>HCI/UX Reasearcher</p>
 							</header>
-							<a href="#work" class="jumplink pic">
+							<a href="#about" class="jumplink pic">
 								<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
 								<img src="{% static 'css/images/me.jpg' %}" alt="" />
 							</a>
@@ -57,23 +57,32 @@
 									<h5>Current Work (2016)</h>
 								</div>
 								<div class="row">
-									<div class="4u 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+									<div class="4u 12u$(mobile)" id="hover-cap-4col">
+								        <div class="thumbnail">
+								            <a href="http://wiki.filoteum.com/index.php?title=Accessible_Interaction_Media_Group">
+								            <div class="caption">
+								                <h5>AIM Project</h5>
+								                <p>2016.04 ~ Current</p>
+								            </div>
+								            </a>
+											<img class="image fit" src="{% static 'css/images/pic01.jpg' %}" alt="">
+								        </div>
+
 									</div>
-									<div class="4u 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+									<div class="4u 12u$(mobile)" id="hover-cap-4col">
+								        <div class="thumbnail">
+											<a href="#sound_footprint">
+								            <div class="caption">
+								                <h5>Sound-Footprint</h5>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								                    tempor incididunt.</p>
+								            </div>
+								            </a>
+								            <img class="image fit" src="{% static 'css/images/pic02.jpg' %}" alt="">
+								        </div>
 									</div>
 									<div class="4u$ 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-									</div>
-									<div class="4u 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-									</div>
-									<div class="4u 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-									</div>
-									<div class="4u$ 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										<!--<a href="" class="image fit"><img src="" alt=""></a>-->
 									</div>
 								</div>
 								<div class="u 12u$(mobile)">
@@ -81,16 +90,42 @@
 								</div>
 
 								<div class="row">
-									<div class="4u 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+									<div class="4u 12u$(mobile)" id="hover-cap-4col">
+								        <div class="thumbnail">
+								            <div class="caption">
+								                <h5>Fam-On</h5>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								                    tempor incididunt.</p>
+								            </div>
+											<a href="#" class="image fit"><img src="{% static 'css/images/pic04.jpg' %}" alt=""></a>
+								        </div>
+
 									</div>
-									<div class="4u 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+									<div class="4u 12u$(mobile)" id="hover-cap-4col">
+								        <div class="thumbnail">
+								            <div class="caption">
+								                <h5>Dot UX Internship</h5>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								                    tempor incididunt.</p>
+								            </div>
+											<a href="#" class="image fit"><img src="{% static 'css/images/pic05.jpg' %}" alt=""></a>
+								        </div>
+
 									</div>
-									<div class="4u$ 12u$(mobile)">
-										<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+									<div class="4u$ 12u$(mobile)" id="hover-cap-4col">
+								        <div class="thumbnail">
+								        <a href="http://p-rogramming.net/">
+								            <div class="caption">
+								                <h5>P.ro Website</h5>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								                    tempor incididunt.</p>
+								            </div>
+								        </a>
+											<img class="image fit" src="{% static 'css/images/pic06.jpg' %}" alt="">
+								        </div>
+
 									</div>
-									<div class="4u 12u$(mobile)">
+									<!--<div class="4u 12u$(mobile)">
 										<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
 									</div>
 									<div class="4u 12u$(mobile)">
@@ -98,17 +133,28 @@
 									</div>
 									<div class="4u$ 12u$(mobile)">
 										<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-									</div>
+									</div>-->
 								</div>
 							</section>
 						</article>
 
+
+
+
 					<!-- Contact -->
-						<article id="contact" class="panel">
+						<article id="about" class="panel">
 							<header>
-								<h2>Contact Me</h2>
+								<h2>About Me</h2>
 							</header>
-							<form action="#" method="post">
+								<div>
+									<div class="row">
+										<div class="6u 12u$(mobile)">
+										<b>to say ah</b>
+										</div>
+									</div>
+								</div>
+
+							<!--<form action="#" method="post">
 								<div>
 									<div class="row">
 										<div class="6u 12u$(mobile)">
@@ -128,7 +174,7 @@
 										</div>
 									</div>
 								</div>
-							</form>
+							</form>-->
 						</article>
 
 				</div>
@@ -136,7 +182,7 @@
 			<!-- Footer -->
 				<div id="footer">
 					<ul class="copyright">
-						<li>Garam Lee &copy; 2016</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Garam Lee &copy; 2016</li><li>Have a Nice Day</a></li>
 					</ul>
 				</div>
 
