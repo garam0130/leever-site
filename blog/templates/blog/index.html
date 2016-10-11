@@ -42,16 +42,45 @@
 							</a>
 						</article>
 
+					<!-- About -->
+						<article id="about" class="panel">
+							<header>
+								<h2>About Me</h2>
+							</header>
+								<div>
+									<div class="row">
+										<div class="12u 12u$(mobile)">
+										<p><b>Hello! I am Garam Lee from Korea.</b><br>
+										I am studying Human-Computer Interaction(HCI) in <a href="http://humanict.skku.edu/">SKKU.</a><br>
+										I really interested in observing people's behavior and thinking,<br>
+										and I always try to keep thinking how can improve User Expriences.</p>
+
+										<p>Expecially, these days, I am doing a project to make more accessible interaction among blind people, computer, and media.<br>
+										I think studying other people's experiences especially that I almost totally I haven't experienced before is really fascinating.<br>
+										So I really love doing this work and for about 6 months, I met and interviewed blind people and related field's experts to know their real use of IT device.</p>
+
+										<p>Except just this project, I always try to keep open my eyes and ears to see and hear what happen and what people think.<br>
+										If you want to communicate with me, please send email or give me message throgh facebook or instagram.<br>
+										I always happy to hear about you and all.</p>
+
+										<p>
+										Email : garamaa0130@hanmail.net<br>
+										Social Network : &nbsp;&nbsp;
+										<a href="https://www.facebook.com/garam0130" class="icon fa-facebook"></a>&nbsp;&nbsp;
+										<a href="https://www.instagram.com/lee_ver/" class="icon fa-instagram"></a>
+										</p>
+										</div>
+									</div>
+								</div>
+						</article>
+
+
 					<!-- Work -->
 						<article id="work" class="panel">
 							<header>
 								<h2>Work</h2>
 							</header>
-							<p>
-								Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-								Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-								luctus elit eget interdum.
-							</p>
+
 							<section>
 								<div class="u 12u$(mobile)">
 									<h5>Current Work (2016)</h>
@@ -59,7 +88,7 @@
 								<div class="row">
 									<div class="4u 12u$(mobile)" id="hover-cap-4col">
 								        <div class="thumbnail">
-								            <a href="http://wiki.filoteum.com/index.php?title=Accessible_Interaction_Media_Group">
+								            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 								            <div class="caption">
 								                <h5>AIM Project</h5>
 								                <p>2016.04 ~ Current</p>
@@ -71,11 +100,10 @@
 									</div>
 									<div class="4u 12u$(mobile)" id="hover-cap-4col">
 								        <div class="thumbnail">
-											<a href="#sound_footprint">
+											<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
 								            <div class="caption">
 								                <h5>Sound-Footprint</h5>
-								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								                    tempor incididunt.</p>
+								                <p>2016.07 ~ Current</p>
 								            </div>
 								            </a>
 								            <img class="image fit" src="{% static 'css/images/pic02.jpg' %}" alt="">
@@ -85,36 +113,40 @@
 										<!--<a href="" class="image fit"><img src="" alt=""></a>-->
 									</div>
 								</div>
+								<br>
 								<div class="u 12u$(mobile)">
-									<h5>Last Work</h>
+									<h5>Last Work</h5>
 								</div>
-
 								<div class="row">
 									<div class="4u 12u$(mobile)" id="hover-cap-4col">
 								        <div class="thumbnail">
+								        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
 								            <div class="caption">
 								                <h5>Fam-On</h5>
 								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								                    tempor incididunt.</p>
 								            </div>
-											<a href="#" class="image fit"><img src="{% static 'css/images/pic04.jpg' %}" alt=""></a>
+											<img class="image fit" src="{% static 'css/images/pic04.jpg' %}" alt="">
+										</a>
 								        </div>
 
 									</div>
 									<div class="4u 12u$(mobile)" id="hover-cap-4col">
 								        <div class="thumbnail">
+								        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
 								            <div class="caption">
 								                <h5>Dot UX Internship</h5>
 								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								                    tempor incididunt.</p>
 								            </div>
-											<a href="#" class="image fit"><img src="{% static 'css/images/pic05.jpg' %}" alt=""></a>
+											<img class="image fit" src="{% static 'css/images/pic05.jpg' %}" alt="">
+										</a>
 								        </div>
 
 									</div>
 									<div class="4u$ 12u$(mobile)" id="hover-cap-4col">
 								        <div class="thumbnail">
-								        <a href="http://p-rogramming.net/">
+								        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
 								            <div class="caption">
 								                <h5>P.ro Website</h5>
 								                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -136,23 +168,7 @@
 									</div>-->
 								</div>
 							</section>
-						</article>
 
-
-
-
-					<!-- Contact -->
-						<article id="about" class="panel">
-							<header>
-								<h2>About Me</h2>
-							</header>
-								<div>
-									<div class="row">
-										<div class="6u 12u$(mobile)">
-										<b>to say ah</b>
-										</div>
-									</div>
-								</div>
 
 							<!--<form action="#" method="post">
 								<div>
@@ -190,8 +206,175 @@
 
 
 
+		    <!-- Portfolio Modals -->
+
+		    <!-- Portfolio Modal 1 -->
+		    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-content">
+		            <div class="close-modal" data-dismiss="modal">
+		                <div class="lr">
+		                    <div class="rl">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-lg-8 col-lg-offset-2">
+		                        <div class="modal-body">
+		                            <!-- Project Details Go Here -->
+		                            <h2>AIM Project</h2>
+		                            <p class="item-intro text-muted">Accessible Interaction Media Group</p>
+		                            <img class="img-responsive img-centered" src="{% static "css/images/portfolio/1.jpg"%}" alt="">
+		                            <p>If you want to see more, please visit our team-page<br>
+		                            link :&nbsp;<a href="http://wiki.filoteum.com/index.php?title=Accessible_Interaction_Media_Group" class="icon fa-link"></a>
+		                            </p>
+		                            <ul class="list-inline">
+		                                <li>Date: July 2014</li>
+		                                <li>Client: Round Icons</li>
+		                                <li>Category: Graphic Design</li>
+		                            </ul>
+		                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+		    <!-- Portfolio Modal 2 -->
+		    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-content">
+		            <div class="close-modal" data-dismiss="modal">
+		                <div class="lr">
+		                    <div class="rl">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-lg-8 col-lg-offset-2">
+		                        <div class="modal-body">
+		                            <!-- Project Details Go Here -->
+		                            <h2>Sound Footprint</h2>
+		                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+		                            <img class="img-responsive img-centered" src="{% static "css/images/portfolio/2.jpg"%}" alt="">
+		                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+		                            <ul class="list-inline">
+		                                <li>Date: July 2014</li>
+		                                <li>Client: Round Icons</li>
+		                                <li>Category: Graphic Design</li>
+		                            </ul>
+		                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+		    <!-- Portfolio Modal 3 -->
+		    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-content">
+		            <div class="close-modal" data-dismiss="modal">
+		                <div class="lr">
+		                    <div class="rl">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-lg-8 col-lg-offset-2">
+		                        <div class="modal-body">
+		                            <!-- Project Details Go Here -->
+		                            <h2>FAM-ON</h2>
+		                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+		                            <img class="img-responsive img-centered" src="{% static "css/images/portfolio/3.jpg"%}" alt="">
+		                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+		                            <ul class="list-inline">
+		                                <li>Date: July 2014</li>
+		                                <li>Client: Round Icons</li>
+		                                <li>Category: Graphic Design</li>
+		                            </ul>
+		                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+		   <!-- Portfolio Modal 4 -->
+		    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-content">
+		            <div class="close-modal" data-dismiss="modal">
+		                <div class="lr">
+		                    <div class="rl">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-lg-8 col-lg-offset-2">
+		                        <div class="modal-body">
+		                            <!-- Project Details Go Here -->
+		                            <h2>Dot UX Internship</h2>
+		                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+		                            <img class="img-responsive img-centered" src="{% static "css/images/portfolio/4.jpg"%}" alt="">
+		                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+		                            <p>
+		                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+		                            <ul class="list-inline">
+		                                <li>Date: July 2014</li>
+		                                <li>Client: Round Icons</li>
+		                                <li>Category: Graphic Design</li>
+		                            </ul>
+		                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+		    <!-- Portfolio Modal 5 -->
+		    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+		        <div class="modal-content">
+		            <div class="close-modal" data-dismiss="modal">
+		                <div class="lr">
+		                    <div class="rl">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="container">
+		                <div class="row">
+		                    <div class="col-lg-8 col-lg-offset-2">
+		                        <div class="modal-body">
+		                            <!-- Project Details Go Here -->
+		                            <h2>P.ro Webpage</h2>
+		                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+		                            <img class="img-responsive img-centered" src="{% static "css/images/portfolio/5.jpg"%}" alt="">
+		                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+		                            <p>
+		                            If you want to see more, please visit P.rogramming Web site<br>
+		                            link :&nbsp;<a href="http://p-rogramming.net/" class="icon fa-link"></a>
+		                            </p>
+		                            <ul class="list-inline">
+		                                <li>Date: July 2014</li>
+		                                <li>Client: Round Icons</li>
+		                                <li>Category: Graphic Design</li>
+		                            </ul>
+		                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
 	  <script type="text/javascript" src="{% static 'js/skel.min.js' %}"></script>
 	  <script type="text/javascript" src="{% static 'js/skel-viewport.min.js' %}"></script>
 	  <script type="text/javascript" src="{% static 'js/util.js' %}"></script>
